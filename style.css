@@ -16,7 +16,7 @@ main {
     display:flex;
 }
 
-h1 {
+.warp-club {
     font-size:10rem;
     width:50vw;
     color:red;
@@ -27,7 +27,7 @@ h1 {
     padding-top: 50px;
 }
 
-.main-foto {
+.column2 {
     background-image: url("./assets/main.jpg");
     width:50vw;
     height:100vh;
