@@ -62,6 +62,16 @@ nav {
     padding:30px;
  }
 
+ #navleft ul li a {
+    text-decoration: none;
+    color: white;
+ }
+
+ #navright ul li a {
+    text-decoration: none;
+    color: white;
+ }
+
  #navright ul {
     list-style: none;
     display: flex;
@@ -72,16 +82,20 @@ nav {
     margin-right:3rem;
  }
 
- #navright ul li {
+ #navright ul li{
     padding:10px  30px 10px 30px;
     color:white;
     font-size:2rem;
     font-weight:700;
     
  }
-
  #navleft li:hover {
     transform:scale(1.5);
+ }
+ 
+
+ #navleft li a:hover {
+ 
     color:blueviolet;
  }
 
